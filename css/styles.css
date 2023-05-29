@@ -170,7 +170,7 @@ button {
 
 }
 
-.address-list {}
+
 
 .list-mail {
     padding-top: 24px;
@@ -200,6 +200,12 @@ button {
 
 
 /* -navigation ---------------------------------------------*/
+@media screen and (max-width:767px) {
+    .list-nav{
+        display: none;
+    }
+}
+
 /* .page-nav {
 
     display: flex;
